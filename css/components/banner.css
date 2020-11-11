@@ -1,0 +1,14 @@
+.banner {
+	background-image: linear-gradient(-218deg, rgba(0,0,0,0.9) 9%, rgba(0,0,0,0.3) 48%), url("../../images/pic-banner.jpg");
+	color: white;
+	padding: 12px 0px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 6px;
+}
+
+.banner h1 {
+	color: white;
+	font-size: 30px;
+	padding-left: 20px;
+}

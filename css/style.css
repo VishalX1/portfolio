@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+
+/* importing all components files */
+@import url("components/banner.css");
+
+/* General style rules for fonts and colors */
+body {
+	font-family: 'Lora', sans-serif;
+	background-color: rgb(240, 240, 240);
+}
+
+h1, h2, h3 {
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+	padding: 60px;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.avatar {
+	width: 340px;
+	border-radius: 50%;
+}
+
+.card {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	flex-basis: 150px;
+	box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
+	border-radius: 6px;
+	margin: 10px;
+	flex-grow: 1;
+}
+
+.card img {
+	width: 250px;
+	border-radius: 6px;
+}
+
+.card h3 {
+	flex-grow: 1;
+	padding-left: 20px;
+	font-size: 18px;
+}
+
+
+
+#shadow {
+	box-shadow: 30px 10px 60px rgba(0,0,0,0.7);
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #e0ccff;
+  color: grey;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
